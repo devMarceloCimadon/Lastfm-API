@@ -1,5 +1,10 @@
 # Lastfm-API
+
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+
 ## 💻About the Project
+
 The project is a study about API consumption with OpenFeign in Java. However, it also introduces new functionalities to the data obtained from the APIs. The aim of this project is not only to learn how to utilize SpringBoot functionalities, but also to understand and address user needs more effectively. An orientation to Object-Oriented Programming (OOP) was also applied.
 
 ## ⚙️Funcionalities
@@ -38,6 +43,24 @@ The project is a study about API consumption with OpenFeign in Java. However, it
 The technologies used were:
 - **[Java](https://www.java.com/)**
 - **[SpringBoot](https://spring.io/)**
+- **[OpenFeign](https://spring.io/projects/spring-cloud-openfeign)**
 
-## ☝️🤓 Author
+## 🖥️Installation
+1. Clone repository:
+```bash
+git clone https://github.com/devMarceloCimadon/Lastfm-API.git
+```
+2. Install dependencies with Maven
+3. Create a `.env` file in `lastfm` folder puting your lastfm API Key
+```yaml
+LASTFM_API_KEY = 1a1111a1a1aa11
+LASTFM_SHARED_SECRET = a111a1a1111aaa1111
+``` 
+## 🖱️Usage
+1. Start application with Maven
+2. The API will be acessible at http://localhost8080
+
+## 🌐API Endpoints
+
+## ☝️🤓Author
 **[Marcelo Cimadon](https://github.com/devMarceloCimadon)**
