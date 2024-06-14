@@ -12,7 +12,7 @@ The project is a study about API consumption with OpenFeign in Java. However, it
   - The User class will receive the user data from the Lastfm API.
   - User data called username will be the param in some utilities on the program, like in the getTopArtists.
   - Will have one subclass:
-    - UserResponse: To get "user" object in the json 
+    - UserResponse: To get "user" object in the json.
 #### Artist:
   - The Artist class will receive the artist data from the Lastfm API. In this case, it has two functionalities: to retrieve the artist's name and the artist's profile URL on the Lastfm website.
   - Used to get the most played artists in the user's profile and to show which artists perform specific songs.
