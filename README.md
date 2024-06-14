@@ -61,38 +61,20 @@ LASTFM_SHARED_SECRET = a111a1a1111aaa1111
 2. The API will be acessible at http://localhost8080
 
 ## 🌐API Endpoints
-1. Get user infos
+All the paths from API starts with the:
 ```markdown
-GET lastfm/api/{username}
+lastfm/api
 ```
-2. Get user top albums
-```markdown
-GET lastfm/api/{username}/top-albums
-```
-3. Get user top tracks
-```markdown
-GET lastfm/api/{username}/top-tracks
-```
-4. Get user top artists
-```markdown
-GET lastfm/api/{username}/top-artists
-```
-5. Get similar tracks
-```markdown
-GET lastfm/api/{artist}/{track}/similar-tracks
-```
-6. Get similar artists
-```markdown
-GET lastfm/api/{artist}/similar-artists
-```
-7. Get user recommended tracks
-```markdown
-GET lastfm/api/{username}/recommended-tracks
-```
-8. Get user recommended artists
-```markdown
-GET lastfm/api/{username}/recommended-artists
-```
+| **Action** | **Type** | **Path** |
+|--------|------|------|
+| Get user infos | Get | /{username}|
+| Get user top albums | GET | /{username}/top-albums |
+| Get user top tracks | GET | /{username}/top-tracks |
+| Get user top artists | GET | /{username}/top-artists |
+| Get similar tracks | GET | /{artist}/{track}/similar-tracks |
+| Get similar artists | GET | /{artist}/similar-artists |
+| Get user recommended tracks | GET | /{username}/recommended-tracks |
+| Get user recommended artists | GET | /{username}/recommended-artists|
 
 ## ☝️🤓Author
 **[Marcelo Cimadon](https://github.com/devMarceloCimadon)**
