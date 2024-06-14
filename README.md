@@ -67,7 +67,7 @@ lastfm/api
 ```
 | **Action** | **Type** | **Path** |
 |--------|------|------|
-| Get user infos | Get | /{username}|
+| Get user infos | GET | /{username}|
 | Get user top albums | GET | /{username}/top-albums |
 | Get user top tracks | GET | /{username}/top-tracks |
 | Get user top artists | GET | /{username}/top-artists |
