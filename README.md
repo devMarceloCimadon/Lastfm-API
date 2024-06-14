@@ -56,11 +56,43 @@ git clone https://github.com/devMarceloCimadon/Lastfm-API.git
 LASTFM_API_KEY = 1a1111a1a1aa11
 LASTFM_SHARED_SECRET = a111a1a1111aaa1111
 ``` 
-## 🖱️Usage
+## 🔧Usage
 1. Start application with Maven
 2. The API will be acessible at http://localhost8080
 
 ## 🌐API Endpoints
+1. Get user infos
+```markdown
+GET lastfm/api/{username}
+```
+2. Get user top albums
+```markdown
+GET lastfm/api/{username}/top-albums
+```
+3. Get user top tracks
+```markdown
+GET lastfm/api/{username}/top-tracks
+```
+4. Get user top artists
+```markdown
+GET lastfm/api/{username}/top-artists
+```
+5. Get similar tracks
+```markdown
+GET lastfm/api/{artist}/{track}/similar-tracks
+```
+6. Get similar artists
+```markdown
+GET lastfm/api/{artist}/similar-artists
+```
+7. Get user recommended tracks
+```markdown
+GET lastfm/api/{username}/recommended-tracks
+```
+8. Get user recommended artists
+```markdown
+GET lastfm/api/{username}/recommended-artists
+```
 
 ## ☝️🤓Author
 **[Marcelo Cimadon](https://github.com/devMarceloCimadon)**
