@@ -77,4 +77,4 @@ lastfm/api
 | Get user recommended artists | GET | /{username}/recommended-artists|
 
 ## ☝️🤓Author
-**[Marcelo Cimadon](https://github.com/devMarceloCimadon)**
+Developed by **[Marcelo Cimadon](https://github.com/devMarceloCimadon)**
