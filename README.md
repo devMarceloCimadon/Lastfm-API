@@ -5,7 +5,7 @@
 
 ## 💻About the Project
 
-The project is a study about API consumption with OpenFeign in Java. However, it also introduces new functionalities to the data obtained from the APIs. The aim of this project is not only to learn how to utilize SpringBoot functionalities, but also to understand and address user needs more effectively. An orientation to Object-Oriented Programming (OOP) was also applied.
+The project is a study about API consumption with OpenFeign in Java. However, it also introduces new functionalities to the data obtained from the APIs. The aim of this project is not only to learn how to utilize SpringBoot functionalities, but also to understand and address user needs more effectively. An Object-Oriented Programming (OOP) was also applied.
 
 ## ⚙️Funcionalities
 #### User:
